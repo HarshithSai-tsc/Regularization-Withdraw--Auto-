@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total": 5,
+    "completed": 3,
+    "alreadyCompleted": 0,
+    "notFound": 2,
+    "error": 0
+  },
+  "results": [
+    {
+      "reason": "Network issue",
+      "punchTime": "10-Apr-2026 (09:00 AM - 06:00 PM)",
+      "status": "Not Found",
+      "errorMessage": ""
+    },
+    {
+      "reason": "Forgot to punch-out",
+      "punchTime": "22-Apr-2026 07:30 PM",
+      "status": "completed",
+      "errorMessage": ""
+    },
+    {
+      "reason": "Device was not working",
+      "punchTime": "20-Apr-2026 11:00 AM",
+      "status": "completed",
+      "errorMessage": ""
+    },
+    {
+      "reason": "System was down whole day",
+      "punchTime": "15-Apr-2026 (08:30 AM - 05:30 PM)",
+      "status": "Not Found",
+      "errorMessage": ""
+    },
+    {
+      "reason": "Network issue",
+      "punchTime": "16-Apr-2026 09:00 AM",
+      "status": "completed",
+      "errorMessage": ""
+    }
+  ]
+}

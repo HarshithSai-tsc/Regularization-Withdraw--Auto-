@@ -1,0 +1,23 @@
+[
+  {
+    "reason": "Network issue",
+    "punchTime": "10-Apr-2026 (09:00 AM - 06:00 PM)"
+  },
+  {
+    "reason": "Forgot to punch-out",
+    "punchTime": "22-Apr-2026 07:30 PM"
+  },
+  {
+    "reason": "Device was not working",
+    "punchTime": "20-Apr-2026 11:00 AM"
+  },
+  {
+    "reason": "System was down whole day",
+    "punchTime": "15-Apr-2026 (08:30 AM - 05:30 PM)"
+  },
+  {
+    "reason": "Network issue",
+    "punchTime": "16-Apr-2026 09:00 AM"
+  }
+  
+]
