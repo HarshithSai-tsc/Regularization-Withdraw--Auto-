@@ -79,7 +79,7 @@
           "column": 6,
           "specs": [
             {
-              "title": "Withdraw | #1 | Network issue | 10-Apr-2026 (09:00 AM - 06:00 PM)",
+              "title": "Withdraw | #1 | Testing boundary case | 02-Apr-2026 (10:00 AM - 07:00 PM)",
               "ok": true,
               "tags": [],
               "tests": [
@@ -94,20 +94,268 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 47025,
+                      "duration": 3669,
                       "errors": [],
                       "stdout": [
                         {
                           "text": "\n Login successful — Manage Request page loaded.\n\n"
                         },
                         {
-                          "text": "\n Processing: \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": "\n Processing: \"Testing boundary case\" | \"02-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": "  Cards visible: 1\n"
+                          "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/1] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": " [1/5] \"Testing boundary case\" | \"02-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": "   Match found (active request)!\n"
+                        },
+                        {
+                          "text": "   Withdraw button clicked\n"
+                        },
+                        {
+                          "text": "   Confirm clicked\n"
+                        },
+                        {
+                          "text": "   Withdrawn successfully\n"
+                        },
+                        {
+                          "text": " Final status: completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-04T07:15:37.870Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "02f6cd002c7a425b11dc-dcabacf010600fe35a4f",
+              "file": "withdraw.spec.js",
+              "line": 128,
+              "column": 5
+            },
+            {
+              "title": "Withdraw | #2 | Network issue | 01-May-2026 (09:30 AM - 06:30 PM)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3604,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n Processing: \"Network issue\" | \"01-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"01-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "   Match found (active request)!\n"
+                        },
+                        {
+                          "text": "   Withdraw button clicked\n"
+                        },
+                        {
+                          "text": "   Confirm clicked\n"
+                        },
+                        {
+                          "text": "   Withdrawn successfully\n"
+                        },
+                        {
+                          "text": " Final status: completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-04T07:16:00.019Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "02f6cd002c7a425b11dc-ba7c469f179fb84abe76",
+              "file": "withdraw.spec.js",
+              "line": 128,
+              "column": 5
+            },
+            {
+              "title": "Withdraw | #3 | Network issue | 03-May-2026 (09:00 AM - 06:00 PM)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3616,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n Processing: \"Network issue\" | \"03-May-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"03-May-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "   Match found (active request)!\n"
+                        },
+                        {
+                          "text": "   Withdraw button clicked\n"
+                        },
+                        {
+                          "text": "   Confirm clicked\n"
+                        },
+                        {
+                          "text": "   Withdrawn successfully\n"
+                        },
+                        {
+                          "text": " Final status: completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-04T07:16:03.646Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "02f6cd002c7a425b11dc-94721b185bbefeebaa63",
+              "file": "withdraw.spec.js",
+              "line": 128,
+              "column": 5
+            },
+            {
+              "title": "Withdraw | #4 | Network issue | 01-Apr-2026 (09:00 AM - 06:00 PM)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3542,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n Processing: \"Network issue\" | \"01-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "   Match found (active request)!\n"
+                        },
+                        {
+                          "text": "   Withdraw button clicked\n"
+                        },
+                        {
+                          "text": "   Confirm clicked\n"
+                        },
+                        {
+                          "text": "   Withdrawn successfully\n"
+                        },
+                        {
+                          "text": " Final status: completed\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-04T07:16:07.284Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "02f6cd002c7a425b11dc-f1b1726433f3b16e09de",
+              "file": "withdraw.spec.js",
+              "line": 128,
+              "column": 5
+            },
+            {
+              "title": "Withdraw | #5 | System was down whole day | 15-Apr-2026 (08:30 AM - 05:30 PM)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 73981,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n Processing: \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"02-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"01-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-May-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"01-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Testing boundary case\" | \"02-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -116,19 +364,19 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Forgot to punch-in\" | \"17-Apr-2026 10:00 AM\"\n"
+                          "text": " [1/5] \"Network issue\" | \"01-May-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                          "text": " [2/5] \"Testing boundary case\" | \"02-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
+                          "text": " [3/5] \"Testing boundary case\" | \"02-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
+                          "text": " [4/5] \"Network issue\" | \"01-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": " [5/5] \"Network issue\" | \"02-May-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -137,25 +385,115 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [1/5] \"Network issue\" | \"01-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"04-May-2026 (12:00 AM - 06:00 AM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"03-May-2026 (04:00 AM - 02:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"03-May-2026 (05:00 AM - 02:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"01-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"02-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"30-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"29-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"29-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"30-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
                         },
                         {
                           "text": "   Duplicate record found (no action available) → skipping\n"
                         },
                         {
-                          "text": " [2/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [3/5] \"Network issue\" | \"20-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"29-Apr-2026 (02:00 AM - 03:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"28-Apr-2026 (05:00 AM - 04:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
                         },
                         {
                           "text": "   Duplicate record found (no action available) → skipping\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
+                          "text": " [4/5] \"Network issue\" | \"28-Apr-2026 (01:00 AM - 01:00 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
+                          "text": " [5/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "   Duplicate record found (no action available) → skipping\n"
+                        },
+                        {
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "   Duplicate record found (no action available) → skipping\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -167,34 +505,10 @@
                           "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Forgot to punch-in\" | \"17-Apr-2026 10:00 AM\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"21-Apr-2026 06:00 PM\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": "   Duplicate record found (no action available) → skipping\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
                         },
                         {
                           "text": "   Duplicate record found (no action available) → skipping\n"
@@ -203,10 +517,7 @@
                           "text": " [4/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": "   Duplicate record found (no action available) → skipping\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -215,40 +526,19 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Network issue\" | \"24-Apr-2026 (09:00 AM - 07:00 PM)\"\n"
+                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [3/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                          "text": " [4/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"12-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -257,325 +547,19 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"23-Apr-2026 (06:02 AM - 06:30 PM)\"\n"
+                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"20-Apr-2026 (06:02 AM - 06:30 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"16-Apr-2026 (06:02 AM - 06:30 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"System issue - unable to punch\" | \"19-Apr-2026 (06:30 AM - 05:20 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"23-Apr-2026 (10:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"22-Apr-2026 (01:00 AM - 05:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"22-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Forgot to punch-in\" | \"22-Apr-2026 05:00 AM\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
                         },
                         {
                           "text": "   Duplicate record found (no action available) → skipping\n"
                         },
                         {
-                          "text": "  Moving to next page...\n"
+                          "text": " [3/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"14-Apr-2026 09:00 AM\"\n"
-                        },
-                        {
-                          "text": "  Could not read card 2: locator.innerText: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.commonThemeMainCard:visible').nth(1).locator('.request_myRequestPunchDetails__tR5nF label.commonCardDetails').first()\u001b[22m\n\n"
-                        },
-                        {
-                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"27-Mar-2026 10:00 AM\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Network issue\" | \"21-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Pepper Stark manually regularized through team attendance\" | \"06-Apr-2026 (09:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (10:30 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"03-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"17-Apr-2026 07:30 PM\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"15-Apr-2026 07:00 PM\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"13-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Network issue\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Pepper Stark manually regularized through team attendance\" | \"03-Apr-2026 (10:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"12-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"08-Mar-2026 (10:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"02-Mar-2026 (09:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 PM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 PM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"18-Mar-2026 (02:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Network issue\" | \"23-Mar-2026 (09:00 AM - 01:30 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"30-Mar-2026 (02:00 PM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": "   Not found on any page\n"
-                        },
-                        {
-                          "text": " Final status: Not Found\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-04-29T04:44:23.812Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "02f6cd002c7a425b11dc-4087361788fc764f7fb8",
-              "file": "withdraw.spec.js",
-              "line": 128,
-              "column": 5
-            },
-            {
-              "title": "Withdraw | #2 | Forgot to punch-out | 22-Apr-2026 07:30 PM",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4283,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "\n Processing: \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
-                        },
-                        {
-                          "text": "   Match found (active request)!\n"
-                        },
-                        {
-                          "text": "   Withdraw button clicked\n"
-                        },
-                        {
-                          "text": "   Confirm clicked\n"
-                        },
-                        {
-                          "text": "   Withdrawn successfully\n"
-                        },
-                        {
-                          "text": " Final status: completed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-04-29T04:45:39.894Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "02f6cd002c7a425b11dc-cfc8ec3f6c083482e3eb",
-              "file": "withdraw.spec.js",
-              "line": 128,
-              "column": 5
-            },
-            {
-              "title": "Withdraw | #3 | Device was not working | 20-Apr-2026 11:00 AM",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 3781,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "\n Processing: \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
-                        },
-                        {
-                          "text": "   Match found (active request)!\n"
-                        },
-                        {
-                          "text": "   Withdraw button clicked\n"
-                        },
-                        {
-                          "text": "   Confirm clicked\n"
-                        },
-                        {
-                          "text": "   Withdrawn successfully\n"
-                        },
-                        {
-                          "text": " Final status: completed\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2026-04-29T04:45:44.205Z",
-                      "annotations": [],
-                      "attachments": []
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "02f6cd002c7a425b11dc-94266600dc2e0a4b61f0",
-              "file": "withdraw.spec.js",
-              "line": 128,
-              "column": 5
-            },
-            {
-              "title": "Withdraw | #4 | System was down whole day | 15-Apr-2026 (08:30 AM - 05:30 PM)",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 42974,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "\n Processing: \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"21-Apr-2026 06:00 PM\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Forgot to punch-in\" | \"17-Apr-2026 10:00 AM\"\n"
+                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": " [5/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
@@ -587,40 +571,25 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
+                          "text": " [1/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": "   Duplicate record found (no action available) → skipping\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
+                          "text": " [2/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": " [4/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": "  Moving to next page...\n"
+                          "text": " [5/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
                         },
                         {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": "   Duplicate record found (no action available) → skipping\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -632,16 +601,16 @@
                           "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Device was not working\" | \"20-Apr-2026 11:00 AM\"\n"
+                          "text": " [3/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Forgot to punch-in\" | \"17-Apr-2026 10:00 AM\"\n"
+                          "text": " [4/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Network issue\" | \"21-Apr-2026 06:00 PM\"\n"
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -650,19 +619,91 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Forgot to punch-out\" | \"22-Apr-2026 07:30 PM\"\n"
+                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": " [3/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [4/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:00 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "   Duplicate record found (no action available) → skipping\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "   Duplicate record found (no action available) → skipping\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "   Duplicate record found (no action available) → skipping\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -674,16 +715,16 @@
                           "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Network issue\" | \"24-Apr-2026 (09:00 AM - 07:00 PM)\"\n"
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                          "text": " [4/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                          "text": " [5/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -692,16 +733,58 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Network issue\" | \"12-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                          "text": " [4/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:00 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
                           "text": " [5/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
@@ -713,40 +796,19 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"23-Apr-2026 (06:02 AM - 06:30 PM)\"\n"
+                          "text": " [1/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"20-Apr-2026 (06:02 AM - 06:30 PM)\"\n"
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"16-Apr-2026 (06:02 AM - 06:30 PM)\"\n"
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"System issue - unable to punch\" | \"19-Apr-2026 (06:30 AM - 05:20 PM)\"\n"
+                          "text": " [4/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"23-Apr-2026 (10:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"22-Apr-2026 (01:00 AM - 05:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"22-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Forgot to punch-in\" | \"22-Apr-2026 05:00 AM\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [5/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -755,40 +817,19 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Network issue\" | \"14-Apr-2026 09:00 AM\"\n"
+                          "text": " [1/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": "  Could not read card 2: locator.innerText: Timeout 5000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('div.commonThemeMainCard:visible').nth(1).locator('.request_myRequestPunchDetails__tR5nF label.commonCardDetails').first()\u001b[22m\n\n"
+                          "text": " [2/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"27-Mar-2026 10:00 AM\"\n"
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Network issue\" | \"21-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [4/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Pepper Stark manually regularized through team attendance\" | \"06-Apr-2026 (09:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (10:30 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"03-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"17-Apr-2026 07:30 PM\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Network issue\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [5/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -797,40 +838,19 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Network issue\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [1/5] \"Network issue\" | \"20-Apr-2026 (11:00 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"15-Apr-2026 07:00 PM\"\n"
+                          "text": " [2/5] \"Network issue\" | \"12-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"13-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Network issue\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                          "text": " [4/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Pepper Stark manually regularized through team attendance\" | \"03-Apr-2026 (10:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": "  Moving to next page...\n"
-                        },
-                        {
-                          "text": "  Cards visible: 5\n"
-                        },
-                        {
-                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"12-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [2/5] \"Network issue\" | \"08-Mar-2026 (10:00 AM - 06:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [3/5] \"Network issue\" | \"02-Mar-2026 (09:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [4/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 AM - 07:00 PM)\"\n"
-                        },
-                        {
-                          "text": " [5/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 AM - 07:00 PM)\"\n"
+                          "text": " [5/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
                         },
                         {
                           "text": "  Moving to next page...\n"
@@ -839,19 +859,103 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 PM - 07:00 PM)\"\n"
+                          "text": " [1/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
                         },
                         {
-                          "text": " [2/5] \"Pepper Stark manually regularized through team attendance\" | \"18-Mar-2026 (02:00 PM - 07:00 PM)\"\n"
+                          "text": " [2/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
                         },
                         {
-                          "text": " [3/5] \"Network issue\" | \"18-Mar-2026 (02:00 AM - 07:00 PM)\"\n"
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [4/5] \"Network issue\" | \"23-Mar-2026 (09:00 AM - 01:30 PM)\"\n"
+                          "text": " [4/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
-                          "text": " [5/5] \"Network issue\" | \"30-Mar-2026 (02:00 PM - 07:00 PM)\"\n"
+                          "text": " [5/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
                         },
                         {
                           "text": "   Not found on any page\n"
@@ -862,7 +966,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-04-29T04:45:48.016Z",
+                      "startTime": "2026-05-04T07:16:10.843Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -870,13 +974,13 @@
                   "status": "expected"
                 }
               ],
-              "id": "02f6cd002c7a425b11dc-3dff650ea4478933558e",
+              "id": "02f6cd002c7a425b11dc-c1ae4ffb6da25bb27f76",
               "file": "withdraw.spec.js",
               "line": 128,
               "column": 5
             },
             {
-              "title": "Withdraw | #5 | Network issue | 16-Apr-2026 09:00 AM",
+              "title": "Withdraw | #6 | Network issue | 16-Apr-2026 09:00 AM",
               "ok": true,
               "tags": [],
               "tests": [
@@ -891,7 +995,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 3804,
+                      "duration": 73696,
                       "errors": [],
                       "stdout": [
                         {
@@ -901,7 +1005,636 @@
                           "text": "  Cards visible: 5\n"
                         },
                         {
-                          "text": " [1/5] \"Network issue\" | \"16-Apr-2026 09:00 AM\"\n"
+                          "text": " [1/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System issue - unable to punch\" | \"17-Apr-2026 (06:30 AM - 05:20 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"02-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"30-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"29-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"29-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"30-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"20-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"29-Apr-2026 (02:00 AM - 03:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"28-Apr-2026 (05:00 AM - 04:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"28-Apr-2026 (01:00 AM - 01:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"28-Apr-2026 (01:00 AM - 01:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"12-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"13-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System was down whole day\" | \"15-Apr-2026 (08:00 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"10-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"13-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Forgot to punch-in and punch-out\" | \"14-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System was down whole day\" | \"15-Apr-2026 (08:30 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:00 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"20-Apr-2026 (11:00 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"12-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Unable to login to system\" | \"08-Apr-2026 (09:00 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"17-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"12-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"01-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"System issue - unable to punch\" | \"17-Apr-2026 (06:30 AM - 05:20 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"System issue - unable to punch\" | \"18-Apr-2026 (06:30 AM - 05:20 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"System issue - unable to punch\" | \"28-Mar-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"01-Apr-2026 (11:00 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"Network issue\" | \"12-Apr-2026 (10:00 AM - 07:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Browser issue\" | \"25-Apr-2026 (08:45 AM - 05:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Moving to next page...\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"20-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [2/5] \"Unable to login to system\" | \"08-Apr-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [3/5] \"Network issue\" | \"03-Apr-2026 (11:02 AM - 04:30 PM)\"\n"
+                        },
+                        {
+                          "text": " [4/5] \"System downtime\" | \"15-Apr-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": " [5/5] \"Network issue\" | \"25-Mar-2026 (09:00 AM - 06:00 PM)\"\n"
+                        },
+                        {
+                          "text": "   Not found on any page\n"
+                        },
+                        {
+                          "text": " Final status: Not Found\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-05-04T07:17:24.843Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "02f6cd002c7a425b11dc-9de4e5898bfc611d8d58",
+              "file": "withdraw.spec.js",
+              "line": 128,
+              "column": 5
+            },
+            {
+              "title": "Withdraw | #7 | Network issue | 02-May-2026 (09:30 AM - 06:30 PM)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3542,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n Processing: \"Network issue\" | \"02-May-2026 (09:30 AM - 06:30 PM)\"\n"
+                        },
+                        {
+                          "text": "  Cards visible: 5\n"
+                        },
+                        {
+                          "text": " [1/5] \"Network issue\" | \"02-May-2026 (09:30 AM - 06:30 PM)\"\n"
                         },
                         {
                           "text": "   Match found (active request)!\n"
@@ -921,7 +1654,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-04-29T04:46:31.020Z",
+                      "startTime": "2026-05-04T07:18:38.558Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -929,7 +1662,7 @@
                   "status": "expected"
                 }
               ],
-              "id": "02f6cd002c7a425b11dc-048fb1f315158afae0f0",
+              "id": "02f6cd002c7a425b11dc-5835ffc6c409ab59eb6c",
               "file": "withdraw.spec.js",
               "line": 128,
               "column": 5
@@ -941,9 +1674,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-04-29T04:44:22.405Z",
-    "duration": 133253.219,
-    "expected": 5,
+    "startTime": "2026-05-04T07:15:36.867Z",
+    "duration": 185916.834,
+    "expected": 7,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
